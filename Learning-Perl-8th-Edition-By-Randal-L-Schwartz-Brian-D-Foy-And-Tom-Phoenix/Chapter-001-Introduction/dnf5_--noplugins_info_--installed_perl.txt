@@ -1,0 +1,1096 @@
+Installed packages
+Name            : perl-AutoLoader
+Epoch           : 0
+Version         : 5.74
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 20.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Load subroutines only on demand
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The AutoLoader module works with the AutoSplit module and the "__END__" token
+                : to defer the loading of some subroutines until they are used rather than
+                : loading them all at once.
+Vendor          : Fedora Project
+
+Name            : perl-B
+Epoch           : 0
+Version         : 1.89
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 498.0 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl compiler backend
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The "B" module supplies classes which allow a Perl program to delve into its
+                : own innards. It is the module used to implement the backends of the Perl
+                : compiler.
+Vendor          : Fedora Project
+
+Name            : perl-Carp
+Epoch           : 0
+Version         : 1.54
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 46.6 KiB
+Source          : perl-Carp-1.54-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Alternative warn and die for modules
+URL             : https://metacpan.org/release/Carp
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Carp routines are useful in your own modules because they act like
+                : die() or warn(), but with a message which is more likely to be useful to a
+                : user of your module. In the case of cluck, confess, and longmess that
+                : context is a summary of every call in the call-stack. For a shorter message
+                : you can use carp or croak which report the error as being from where your
+                : module was called. There is no guarantee that that is where the error was,
+                : but it is a good educated guess.
+Vendor          : Fedora Project
+
+Name            : perl-Class-Struct
+Epoch           : 0
+Version         : 0.68
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 25.4 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Declare struct-like data types as Perl classes
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Class::Struct module exports a single function struct(). Given a list of
+                : element names and types, and optionally a class name, struct() creates a
+                : Perl 5 class that implements a struct-like data structure.
+Vendor          : Fedora Project
+
+Name            : perl-Data-Dumper
+Epoch           : 0
+Version         : 2.189
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 111.7 KiB
+Source          : perl-Data-Dumper-2.189-512.fc41.src.rpm
+From repository : anaconda
+Summary         : Stringify perl data structures, suitable for printing and eval
+URL             : https://metacpan.org/release/Data-Dumper
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Given a list of scalars or reference variables, writes out their contents
+                : in perl syntax. The references can also be objects. The content of each
+                : variable is output in a single Perl statement. Handles self-referential
+                : structures correctly.
+Vendor          : Fedora Project
+
+Name            : perl-Digest
+Epoch           : 0
+Version         : 1.20
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 35.3 KiB
+Source          : perl-Digest-1.20-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Modules that calculate message digests
+URL             : https://metacpan.org/release/Digest
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Digest:: modules calculate digests, also called "fingerprints" or
+                : "hashes", of some data, called a message. The digest is (usually) some
+                : small/fixed size string. The actual size of the digest depends of the
+                : algorithm used. The message is simply a sequence of arbitrary bytes or bits.
+Vendor          : Fedora Project
+
+Name            : perl-Digest-MD5
+Epoch           : 0
+Version         : 2.59
+Release         : 5.fc41
+Architecture    : x86_64
+Installed size  : 59.8 KiB
+Source          : perl-Digest-MD5-2.59-5.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl interface to the MD5 algorithm
+URL             : https://metacpan.org/release/Digest-MD5
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Digest::MD5 module allows you to use the RSA Data Security Inc. MD5
+                : Message Digest algorithm from within Perl programs. The algorithm takes as
+                : input a message of arbitrary length and produces as output a 128-bit
+                : "fingerprint" or "message digest" of the input.
+Vendor          : Fedora Project
+
+Name            : perl-DynaLoader
+Epoch           : 0
+Version         : 1.56
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 32.1 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Dynamically load C libraries into Perl code
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The DynaLoader module defines a standard generic interface to the dynamic
+                : linking mechanisms available on many platforms. Its primary purpose is to
+                : implement automatic dynamic loading of Perl modules. For a simpler interface,
+                : see XSLoader module.
+Vendor          : Fedora Project
+
+Name            : perl-Encode
+Epoch           : 4
+Version         : 3.21
+Release         : 511.fc41
+Architecture    : x86_64
+Installed size  : 4.7 MiB
+Source          : perl-Encode-3.21-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Character encodings in Perl
+URL             : https://metacpan.org/release/Encode
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND Artistic-2.0
+Description     : The Encode module provides the interface between Perl strings and the rest
+                : of the system. Perl strings are sequences of characters.
+Vendor          : Fedora Project
+
+Name            : perl-Errno
+Epoch           : 0
+Version         : 1.38
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 8.4 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : System errno constants
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : "Errno" defines and conditionally exports all the error constants defined in
+                : your system "errno.h" include file. It has a single export tag, ":POSIX",
+                : which will export all POSIX defined error numbers.
+Vendor          : Fedora Project
+
+Name            : perl-Error
+Epoch           : 1
+Version         : 0.17029
+Release         : 16.fc41
+Architecture    : noarch
+Installed size  : 77.3 KiB
+Source          : perl-Error-0.17029-16.fc41.src.rpm
+From repository : anaconda
+Summary         : Error/exception handling in an OO-ish way
+URL             : https://metacpan.org/release/Error
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND X11
+Description     : The Error package provides two interfaces. Firstly Error provides a
+                : procedural interface to exception handling. Secondly Error is a base class
+                : for errors/exceptions that can either be thrown, for subsequent catch, or
+                : can simply be recorded.
+Vendor          : Fedora Project
+
+Name            : perl-Exporter
+Epoch           : 0
+Version         : 5.78
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 54.3 KiB
+Source          : perl-Exporter-5.78-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Implements default import method for modules
+URL             : https://metacpan.org/release/Exporter
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Exporter module implements an import method which allows a module to
+                : export functions and variables to its users' name spaces. Many modules use
+                : Exporter rather than implementing their own import method because Exporter
+                : provides a highly flexible interface, with an implementation optimized for
+                : the common case.
+Vendor          : Fedora Project
+
+Name            : perl-Fcntl
+Epoch           : 0
+Version         : 1.18
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 49.0 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : File operation options
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Fcntl module provides file operation related options.
+Vendor          : Fedora Project
+
+Name            : perl-File-Basename
+Epoch           : 0
+Version         : 2.86
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 14.0 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Parse file paths into directory, file name, and suffix
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : These routines allow you to parse file paths into their directory, file name,
+                : and suffix.
+Vendor          : Fedora Project
+
+Name            : perl-File-Find
+Epoch           : 0
+Version         : 1.44
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 41.9 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Traverse a directory tree
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : These are functions for searching through directory trees doing work on each
+                : file found similar to the Unix find command.
+Vendor          : Fedora Project
+
+Name            : perl-File-Path
+Epoch           : 0
+Version         : 2.18
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 63.5 KiB
+Source          : perl-File-Path-2.18-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Create or remove directory trees
+URL             : https://metacpan.org/release/File-Path
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module provides a convenient way to create directories of arbitrary
+                : depth and to delete an entire directory subtree from the file system.
+Vendor          : Fedora Project
+
+Name            : perl-File-Temp
+Epoch           : 1
+Version         : 0.231.100
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 162.3 KiB
+Source          : perl-File-Temp-0.231.100-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Return name and handle of a temporary file safely
+URL             : https://metacpan.org/release/File-Temp
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : File::Temp can be used to create and open temporary files in a safe way.
+                : There is both a function interface and an object-oriented interface. The
+                : File::Temp constructor or the tempfile() function can be used to return the
+                : name and the open file handle of a temporary file. The tempdir() function
+                : can be used to create a temporary directory.
+Vendor          : Fedora Project
+
+Name            : perl-File-stat
+Epoch           : 0
+Version         : 1.14
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 12.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : By-name interface to Perl built-in stat functions
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module overrides the core stat() and lstat() functions, replacing them
+                : with versions that return File::stat objects. This object has methods that
+                : return the similarly named structure field name from the stat(2) function.
+Vendor          : Fedora Project
+
+Name            : perl-FileHandle
+Epoch           : 0
+Version         : 2.05
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 9.3 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Object methods for file handles
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This is an object-oriented interface for opening files and performing
+                : input/output operations on them.
+Vendor          : Fedora Project
+
+Name            : perl-Getopt-Long
+Epoch           : 1
+Version         : 2.58
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 144.5 KiB
+Source          : perl-Getopt-Long-2.58-2.fc41.src.rpm
+From repository : anaconda
+Summary         : Extended processing of command line options
+URL             : https://metacpan.org/release/Getopt-Long
+License         : GPL-2.0-or-later OR Artistic-1.0-Perl
+Description     : The Getopt::Long module implements an extended getopt function called
+                : GetOptions(). It parses the command line from @ARGV, recognizing and removing
+                : specified options and their possible values.  It adheres to the POSIX syntax
+                : for command line options, with GNU extensions. In general, this means that
+                : options have long names instead of single letters, and are introduced with
+                : a double dash "--". Support for bundling of command line options, as was the
+                : case with the more traditional single-letter approach, is provided but not
+                : enabled by default.
+Vendor          : Fedora Project
+
+Name            : perl-Getopt-Std
+Epoch           : 0
+Version         : 1.14
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 11.2 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Process single-character switches with switch clustering
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Getopt::Std module provides functions for processing single-character
+                : switches with switch clustering. Pass one argument which is a string
+                : containing all switches to be recognized.
+Vendor          : Fedora Project
+
+Name            : perl-Git
+Epoch           : 0
+Version         : 2.47.1
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 64.0 KiB
+Source          : git-2.47.1-1.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl interface to Git
+URL             : https://git-scm.com/
+License         : BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT
+Description     : Perl interface to Git.
+Vendor          : Fedora Project
+
+Name            : perl-HTTP-Tiny
+Epoch           : 0
+Version         : 0.090
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 154.4 KiB
+Source          : perl-HTTP-Tiny-0.090-1.fc41.src.rpm
+From repository : <unknown>
+Summary         : Small, simple, correct HTTP/1.1 client
+URL             : https://metacpan.org/release/HTTP-Tiny
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This is a very simple HTTP/1.1 client, designed for doing simple GET requests
+                : without the overhead of a large framework like LWP::UserAgent.
+                : 
+                : It is more correct and more complete than HTTP::Lite. It supports proxies
+                : (currently only non-authenticating ones) and redirection. It also correctly
+                : resumes after EINTR.
+Vendor          : Fedora Project
+
+Name            : perl-IO
+Epoch           : 0
+Version         : 1.55
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 151.1 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl input/output modules
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This is a collection of Perl input/output modules.
+Vendor          : Fedora Project
+
+Name            : perl-IO-Socket-IP
+Epoch           : 0
+Version         : 0.43
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 100.3 KiB
+Source          : perl-IO-Socket-IP-0.43-1.fc41.src.rpm
+From repository : <unknown>
+Summary         : Drop-in replacement for IO::Socket::INET supporting both IPv4 and IPv6
+URL             : https://metacpan.org/release/IO-Socket-IP
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module provides a protocol-independent way to use IPv4 and IPv6
+                : sockets, intended as a replacement for IO::Socket::INET. Most constructor
+                : arguments and methods are provided in a backward-compatible way.
+Vendor          : Fedora Project
+
+Name            : perl-IO-Socket-SSL
+Epoch           : 0
+Version         : 2.089
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 703.3 KiB
+Source          : perl-IO-Socket-SSL-2.089-1.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl library for transparent SSL
+URL             : https://metacpan.org/release/IO-Socket-SSL
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND MPL-2.0
+Description     : This module is a true drop-in replacement for IO::Socket::INET that
+                : uses SSL to encrypt data before it is transferred to a remote server
+                : or client. IO::Socket::SSL supports all the extra features that one
+                : needs to write a full-featured SSL client or server application:
+                : multiple SSL contexts, cipher selection, certificate verification, and
+                : SSL version selection. As an extra bonus, it works perfectly with
+                : mod_perl.
+Vendor          : Fedora Project
+
+Name            : perl-IPC-Open3
+Epoch           : 0
+Version         : 1.22
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 22.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Open a process for reading, writing, and error handling
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : These are functions that spawn a given command and connects the standard
+                : output of the command for reading, standard output for writing, and standard
+                : error output for handling the errors.
+Vendor          : Fedora Project
+
+Name            : perl-MIME-Base32
+Epoch           : 0
+Version         : 1.303
+Release         : 21.fc41
+Architecture    : noarch
+Installed size  : 30.7 KiB
+Source          : perl-MIME-Base32-1.303-21.fc41.src.rpm
+From repository : anaconda
+Summary         : Base32 encoder / decoder
+URL             : https://metacpan.org/release/MIME-Base32
+License         : GPL+ or Artistic
+Description     : Encodes and decodes data in a similar way like MIME::Base64 does.
+Vendor          : Fedora Project
+
+Name            : perl-MIME-Base64
+Epoch           : 0
+Version         : 3.16
+Release         : 511.fc41
+Architecture    : x86_64
+Installed size  : 46.1 KiB
+Source          : perl-MIME-Base64-3.16-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Encoding and decoding of Base64 and quoted-printable strings
+URL             : https://metacpan.org/release/MIME-Base64
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND metamail
+Description     : This package contains a Base64 encoder/decoder and a quoted-printable
+                : encoder/decoder. These encoding methods are specified in RFC 2045 - MIME
+                : (Multipurpose Internet Mail Extensions).
+Vendor          : Fedora Project
+
+Name            : perl-Mozilla-CA
+Epoch           : 0
+Version         : 20240730
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 9.8 KiB
+Source          : perl-Mozilla-CA-20240730-1.fc41.src.rpm
+From repository : anaconda
+Summary         : Mozilla's CA certificate bundle in PEM format
+URL             : https://metacpan.org/release/Mozilla-CA
+License         : MPL-2.0
+Description     : Mozilla::CA provides a path to ca-certificates copy of Mozilla's bundle of
+                : certificate authority certificates in a form that can be consumed by modules
+                : and libraries based on OpenSSL.
+Vendor          : Fedora Project
+
+Name            : perl-NDBM_File
+Epoch           : 0
+Version         : 1.17
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 32.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Tied access to ndbm files
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : NDBM_File establishes a connection between a Perl hash variable and a file in
+                : ndbm format. You can manipulate the data in the file just as if it were in
+                : a Perl hash, but when your program exits, the data will remain in the file, to
+                : be used the next time your program runs.
+Vendor          : Fedora Project
+
+Name            : perl-Net-SSLeay
+Epoch           : 0
+Version         : 1.94
+Release         : 7.fc41
+Architecture    : x86_64
+Installed size  : 1.3 MiB
+Source          : perl-Net-SSLeay-1.94-7.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl extension for using OpenSSL
+URL             : https://metacpan.org/release/Net-SSLeay
+License         : Artistic-2.0
+Description     : This module offers some high level convenience functions for accessing
+                : web pages on SSL servers (for symmetry, same API is offered for
+                : accessing http servers, too), a sslcat() function for writing your own
+                : clients, and finally access to the SSL API of SSLeay/OpenSSL package
+                : so you can write servers or clients for more complicated applications.
+Vendor          : Fedora Project
+
+Name            : perl-POSIX
+Epoch           : 0
+Version         : 2.20
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 235.1 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl interface to IEEE Std 1003.1
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The POSIX module permits you to access all (or nearly all) the standard POSIX
+                : 1003.1 identifiers. Many of these identifiers have been given Perl interfaces.
+Vendor          : Fedora Project
+
+Name            : perl-PathTools
+Epoch           : 0
+Version         : 3.91
+Release         : 511.fc41
+Architecture    : x86_64
+Installed size  : 180.0 KiB
+Source          : perl-PathTools-3.91-511.fc41.src.rpm
+From repository : anaconda
+Summary         : PathTools Perl module (Cwd, File::Spec)
+URL             : https://metacpan.org/release/PathTools
+License         : ( GPL-1.0-or-later OR Artistic-1.0-Perl ) AND BSD-3-Clause
+Description     : This is the combined distribution for the File::Spec and Cwd modules.
+Vendor          : Fedora Project
+
+Name            : perl-Pod-Escapes
+Epoch           : 1
+Version         : 1.07
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 24.9 KiB
+Source          : perl-Pod-Escapes-1.07-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Resolve POD escape sequences
+URL             : https://metacpan.org/release/Pod-Escapes
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module provides things that are useful in decoding Pod E<...> sequences.
+Vendor          : Fedora Project
+
+Name            : perl-Pod-Perldoc
+Epoch           : 0
+Version         : 3.28.01
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 163.7 KiB
+Source          : perl-Pod-Perldoc-3.28.01-512.fc41.src.rpm
+From repository : anaconda
+Summary         : Look up Perl documentation in Pod format
+URL             : https://metacpan.org/release/Pod-Perldoc
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : perldoc looks up a piece of documentation in POD format that is embedded
+                : in the perl installation tree or in a Perl script, and displays it via
+                : "groff -man | $PAGER". This is primarily used for the documentation for
+                : the Perl library modules.
+Vendor          : Fedora Project
+
+Name            : perl-Pod-Simple
+Epoch           : 1
+Version         : 3.45
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 560.9 KiB
+Source          : perl-Pod-Simple-3.45-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Framework for parsing POD documentation
+URL             : https://metacpan.org/release/Pod-Simple
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Pod::Simple is a Perl library for parsing text in the POD (plain old
+                : documentation) markup language that is typically used for writing
+                : documentation for Perl and for Perl modules.
+Vendor          : Fedora Project
+
+Name            : perl-Pod-Usage
+Epoch           : 4
+Version         : 2.03
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 84.8 KiB
+Source          : perl-Pod-Usage-2.03-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Print a usage message from embedded POD documentation
+URL             : https://metacpan.org/release/Pod-Usage
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : pod2usage will print a usage message for the invoking script (using its
+                : embedded POD documentation) and then exit the script with the desired exit
+                : status. The usage message printed may have any one of three levels of
+                : "verboseness": If the verbose level is 0, then only a synopsis is printed.
+                : If the verbose level is 1, then the synopsis is printed along with a
+                : description (if present) of the command line options and arguments. If the
+                : verbose level is 2, then the entire manual page is printed.
+Vendor          : Fedora Project
+
+Name            : perl-Scalar-List-Utils
+Epoch           : 5
+Version         : 1.68
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 148.9 KiB
+Source          : perl-Scalar-List-Utils-1.68-1.fc41.src.rpm
+From repository : <unknown>
+Summary         : A selection of general-utility scalar and list subroutines
+URL             : https://metacpan.org/release/Scalar-List-Utils
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This package contains a selection of subroutines that people have expressed
+                : would be nice to have in the perl core, but the usage would not really be
+                : high enough to warrant the use of a keyword, and the size so small such
+                : that being individual extensions would be wasteful.
+Vendor          : Fedora Project
+
+Name            : perl-SelectSaver
+Epoch           : 0
+Version         : 1.02
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 2.2 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Save and restore selected file handle
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : A "SelectSaver" object contains a reference to the file handle that was
+                : selected when it was created. When the object is destroyed, it re-selects the
+                : file handle that was selected when it was created.
+Vendor          : Fedora Project
+
+Name            : perl-Socket
+Epoch           : 4
+Version         : 2.038
+Release         : 511.fc41
+Architecture    : x86_64
+Installed size  : 124.0 KiB
+Source          : perl-Socket-2.038-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Networking constants and support functions
+URL             : https://metacpan.org/release/Socket
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This Perl module provides a variety of constants, structure manipulators and
+                : other functions related to socket-based networking. The values and functions
+                : provided are useful when used in conjunction with Perl core functions such as
+                : socket(), setsockopt() and bind(). It also provides several other support
+                : functions, mostly for dealing with conversions of network addresses between
+                : human-readable and native binary forms, and for hostname resolver operations.
+Vendor          : Fedora Project
+
+Name            : perl-Storable
+Epoch           : 1
+Version         : 3.32
+Release         : 511.fc41
+Architecture    : x86_64
+Installed size  : 232.4 KiB
+Source          : perl-Storable-3.32-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Persistence for Perl data structures
+URL             : https://metacpan.org/release/Storable
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Storable package brings persistence to your Perl data structures
+                : containing scalar, array, hash or reference objects, i.e. anything that
+                : can be conveniently stored to disk and retrieved at a later time.
+Vendor          : Fedora Project
+
+Name            : perl-Symbol
+Epoch           : 0
+Version         : 1.09
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 6.8 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Manipulate Perl symbols and their names
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The Symbol module provides functions for manipulating Perl symbols.
+Vendor          : Fedora Project
+
+Name            : perl-Term-ANSIColor
+Epoch           : 0
+Version         : 5.01
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 97.5 KiB
+Source          : perl-Term-ANSIColor-5.01-512.fc41.src.rpm
+From repository : anaconda
+Summary         : Color screen output using ANSI escape sequences
+URL             : https://metacpan.org/release/Term-ANSIColor
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module has two interfaces, one through color() and colored() and the
+                : other through constants. It also offers the utility functions uncolor(),
+                : colorstrip(), colorvalid(), and coloralias(), which have to be explicitly
+                : imported to be used.
+Vendor          : Fedora Project
+
+Name            : perl-Term-Cap
+Epoch           : 0
+Version         : 1.18
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 29.3 KiB
+Source          : perl-Term-Cap-1.18-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl termcap interface
+URL             : https://metacpan.org/release/Term-Cap
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : These are low-level functions to extract and use capabilities from a terminal
+                : capability (termcap) database.
+Vendor          : Fedora Project
+
+Name            : perl-TermReadKey
+Epoch           : 0
+Version         : 2.38
+Release         : 23.fc41
+Architecture    : x86_64
+Installed size  : 64.1 KiB
+Source          : perl-TermReadKey-2.38-23.fc41.src.rpm
+From repository : anaconda
+Summary         : A perl module for simple terminal control
+URL             : https://metacpan.org/release/TermReadKey
+License         : TermReadKey AND (GPL-1.0-or-later OR Artistic-1.0-Perl)
+Description     : Term::ReadKey is a compiled perl module dedicated to providing simple
+                : control over terminal driver modes (cbreak, raw, cooked, etc.)
+                : support for non-blocking reads, if the architecture allows, and some
+                : generalized handy functions for working with terminals.  One of the
+                : main goals is to have the functions as portable as possible, so you
+                : can just plug in "use Term::ReadKey" on any architecture and have a
+                : good likelyhood of it working.
+Vendor          : Fedora Project
+
+Name            : perl-Text-ParseWords
+Epoch           : 0
+Version         : 3.31
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 13.6 KiB
+Source          : perl-Text-ParseWords-3.31-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Parse text into an array of tokens or array of arrays
+URL             : https://metacpan.org/release/Text-ParseWords
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The nested_quotewords() and quotewords() functions accept a delimiter (which
+                : can be a regular expression) and a list of lines and then breaks those lines
+                : up into a list of words ignoring delimiters that appear inside quotes.
+                : quotewords() returns all of the tokens in a single long list, while
+                : nested_quotewords() returns a list of token lists corresponding to the
+                : elements of @lines. parse_line() does tokenizing on a single string. The
+                : quotewords() functions simply call parse_line(), so if you're only splitting
+                : one line you can call parse_line() directly and save a function call.
+Vendor          : Fedora Project
+
+Name            : perl-Text-Tabs+Wrap
+Epoch           : 0
+Version         : 2024.001
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 22.6 KiB
+Source          : perl-Text-Tabs+Wrap-2024.001-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Expand tabs and do simple line wrapping
+URL             : https://metacpan.org/release/Text-Tabs%2BWrap
+License         : TTWL
+Description     : Text::Tabs performs the same job that the UNIX expand(1) and unexpand(1)
+                : commands do: adding or removing tabs from a document.
+                : 
+                : Text::Wrap::wrap() will reformat lines into paragraphs. All it does is break
+                : up long lines, it will not join short lines together.
+Vendor          : Fedora Project
+
+Name            : perl-Time-Local
+Epoch           : 2
+Version         : 1.350
+Release         : 511.fc41
+Architecture    : noarch
+Installed size  : 69.0 KiB
+Source          : perl-Time-Local-1.350-511.fc41.src.rpm
+From repository : anaconda
+Summary         : Efficiently compute time from local and GMT time
+URL             : https://metacpan.org/release/Time-Local
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module provides functions that are the inverse of built-in perl functions
+                : localtime() and gmtime(). They accept a date as a six-element array, and
+                : return the corresponding time(2) value in seconds since the system epoch
+                : (Midnight, January 1, 1970 GMT on Unix, for example). This value can be
+                : positive or negative, though POSIX only requires support for positive values,
+                : so dates before the system's epoch may not work on all operating systems.
+Vendor          : Fedora Project
+
+Name            : perl-URI
+Epoch           : 0
+Version         : 5.30
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 256.9 KiB
+Source          : perl-URI-5.30-1.fc41.src.rpm
+From repository : anaconda
+Summary         : A Perl module implementing URI parsing and manipulation
+URL             : https://metacpan.org/release/URI
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module implements the URI class. Objects of this class represent
+                : "Uniform Resource Identifier references" as specified in RFC 2396 (and
+                : updated by RFC 2732).
+Vendor          : Fedora Project
+
+Name            : perl-base
+Epoch           : 0
+Version         : 2.27
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 12.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Establish an ISA relationship with base classes at compile time
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : "base" module allows you to both load one or more modules, while setting up
+                : inheritance from those modules at the same time.  Unless you are using the
+                : "fields" pragma, consider this module discouraged in favor of the
+                : lighter-weight "parent".
+Vendor          : Fedora Project
+
+Name            : perl-constant
+Epoch           : 0
+Version         : 1.33
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 26.2 KiB
+Source          : perl-constant-1.33-512.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl pragma to declare constants
+URL             : https://metacpan.org/release/constant
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This pragma allows you to declare constants at compile-time:
+                : 
+                : use constant PI => 4 * atan2(1, 1);
+                : 
+                : When you declare a constant such as "PI" using the method shown above,
+                : each machine your script runs upon can have as many digits of accuracy
+                : as it can use. Also, your program will be easier to read, more likely
+                : to be maintained (and maintained correctly), and far less likely to
+                : send a space probe to the wrong planet because nobody noticed the one
+                : equation in which you wrote 3.14195.
+                : 
+                : When a constant is used in an expression, Perl replaces it with its
+                : value at compile time, and may then optimize the expression further.
+                : In particular, any code in an "if (CONSTANT)" block will be optimized
+                : away if the constant is false.
+Vendor          : Fedora Project
+
+Name            : perl-if
+Epoch           : 0
+Version         : 0.61.000
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 5.8 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Use a Perl module if a condition holds
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The "if" module is used to conditionally load another module.
+Vendor          : Fedora Project
+
+Name            : perl-interpreter
+Epoch           : 4
+Version         : 5.40.0
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 122.3 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Standalone executable Perl interpreter
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This is a Perl interpreter as a standalone executable /usr/bin/perl
+                : required for handling Perl scripts. It does not provide all the other Perl
+                : modules or tools.
+                : 
+                : Install this package if you want to program in Perl or enable your system to
+                : handle Perl scripts with /usr/bin/perl interpreter.
+                : 
+                : If your script requires some Perl modules, you can install them with
+                : "perl(MODULE)" where "MODULE" is a name of required module. E.g. install
+                : "perl(Test::More)" to make Test::More Perl module available.
+                : 
+                : If you need all the Perl modules that come with upstream Perl sources, so
+                : called core modules, install perl package.
+                : 
+                : If you only need perl run-time as a shared library, i.e. Perl interpreter
+                : embedded into another application, the only essential package is perl-libs.
+                : 
+                : Perl header files can be found in perl-devel package.
+                : 
+                : Perl utils like "h2ph" or "perlbug" can be found in perl-utils package.
+                : 
+                : Perl debugger, usually invoked with "perl -d", is available in perl-debugger
+                : package.
+Vendor          : Fedora Project
+
+Name            : perl-lib
+Epoch           : 0
+Version         : 0.65
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 8.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Manipulate @INC at compile time
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This module simplifies the manipulation of @INC at compile time.
+Vendor          : Fedora Project
+
+Name            : perl-libnet
+Epoch           : 0
+Version         : 3.15
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 289.4 KiB
+Source          : perl-libnet-3.15-512.fc41.src.rpm
+From repository : anaconda
+Summary         : Perl clients for various network protocols
+URL             : https://metacpan.org/release/libnet
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This is a collection of Perl modules which provides a simple and
+                : consistent programming interface (API) to the client side of various
+                : protocols used in the internet community.
+Vendor          : Fedora Project
+
+Name            : perl-libs
+Epoch           : 4
+Version         : 5.40.0
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 9.9 MiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : The libraries for the perl run-time
+URL             : https://www.perl.org/
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND Martin-Birgmeier AND Spencer-86 AND MIT AND Unicode-3.0 AND LicenseRef-Fedora-Public-Domain
+Description     : The is a perl run-time (interpreter as a shared library and include
+                : directories).
+Vendor          : Fedora Project
+
+Name            : perl-locale
+Epoch           : 0
+Version         : 1.12
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 6.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Pragma to use or avoid POSIX locales for built-in operations
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This pragma tells the compiler to enable (or disable) the use of POSIX locales
+                : for built-in operations (for example, LC_CTYPE for regular expressions,
+                : LC_COLLATE for string comparison, and LC_NUMERIC for number formatting). Each
+                : "use locale" or "no locale" affects statements to the end of the enclosing
+                : block.
+Vendor          : Fedora Project
+
+Name            : perl-mro
+Epoch           : 0
+Version         : 1.29
+Release         : 512.fc41
+Architecture    : x86_64
+Installed size  : 45.6 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Method resolution order
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The "mro" name space provides several utilities for dealing with method
+                : resolution order and method caching in general.
+Vendor          : Fedora Project
+
+Name            : perl-overload
+Epoch           : 0
+Version         : 1.37
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 71.5 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Overloading Perl operations
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : The "overload" pragma allows overloading of Perl operators for a class. To
+                : overload built-in functions, see "Overriding Built-in Functions" in perlsub
+                : POD instead.
+Vendor          : Fedora Project
+
+Name            : perl-overloading
+Epoch           : 0
+Version         : 0.02
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 4.8 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl pragma to lexically control overloading
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Overloading pragma allows you to lexically disable or enable overloading.
+Vendor          : Fedora Project
+
+Name            : perl-parent
+Epoch           : 1
+Version         : 0.242
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 10.0 KiB
+Source          : perl-parent-0.242-1.fc41.src.rpm
+From repository : anaconda
+Summary         : Establish an ISA relationship with base classes at compile time
+URL             : https://metacpan.org/release/parent
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : Allows you to both load one or more modules, while setting up inheritance
+                : from those modules at the same time. Mostly similar in effect to:
+                : 
+                : \x09package Baz;
+                : 
+                : \x09BEGIN {
+                : \x09\x09require Foo;
+                : \x09\x09require Bar;
+                : 
+                : \x09\x09push @ISA, qw(Foo Bar);
+                : \x09}
+Vendor          : Fedora Project
+
+Name            : perl-podlators
+Epoch           : 1
+Version         : 6.0.2
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 317.5 KiB
+Source          : perl-podlators-6.0.2-2.fc41.src.rpm
+From repository : anaconda
+Summary         : Format POD source into various output formats
+URL             : https://metacpan.org/release/podlators
+License         : (GPL-1.0-or-later OR Artistic-1.0-Perl) AND FSFAP
+Description     : This package contains Pod::Man and Pod::Text modules which convert POD input
+                : to *roff source output, suitable for man pages, or plain text.  It also
+                : includes several sub-classes of Pod::Text for formatted output to terminals
+                : with various capabilities.
+Vendor          : Fedora Project
+
+Name            : perl-vars
+Epoch           : 0
+Version         : 1.05
+Release         : 512.fc41
+Architecture    : noarch
+Installed size  : 3.9 KiB
+Source          : perl-5.40.0-512.fc41.src.rpm
+From repository : <unknown>
+Summary         : Perl pragma to predeclare global variable names
+URL             : https://www.perl.org/
+License         : GPL-1.0-or-later OR Artistic-1.0-Perl
+Description     : This pragma will predeclare all the variables whose names are in the
+                : list, allowing you to use them under "use strict", and disabling any
+                : typo warnings for them.
+                : 
+                : For use with variables in the current package for a single scope, the
+                : functionality provided by this pragma has been superseded by "our"
+                : declarations, available in Perl v5.6.0 or later, and use of this pragma is
+                : discouraged.
+Vendor          : Fedora Project
