@@ -1,0 +1,3 @@
+/usr/bin/perldoc
+/usr/bin/perl
+/usr/bin/perl5.40.0
